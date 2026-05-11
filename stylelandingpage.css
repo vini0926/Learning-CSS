@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(38, 97, 30);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.content {
+    background-color: rgb(126, 182, 109);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(160, 209, 145)
+}
+
+footer {
+    background-color: rgb(20, 37, 15);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+}
